@@ -1,0 +1,9 @@
+<?php
+function square_sum($numbers) : int {
+    // Write your code here...
+    $newArray = [];
+    foreach ($numbers as $value){
+        array_push($newArray, pow($value, 2));
+    }
+    return array_sum($newArray);
+}

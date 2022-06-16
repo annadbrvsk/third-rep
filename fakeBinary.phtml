@@ -1,0 +1,7 @@
+<?php
+function fake_bin(string $s): string {
+    // Write your code here
+    $s = str_replace(range(0,4), 0, $s);
+    $s = str_replace(range(5,9), 1, $s);
+    return $s;
+}

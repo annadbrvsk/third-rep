@@ -1,0 +1,11 @@
+<?php
+function positive_sum($arr) {
+    // Your code here
+    $sum = [];
+    foreach ($arr as $value){
+        if ($value > 0){
+            array_push($sum, $value);
+        }
+    }
+    return array_sum($sum);
+}
