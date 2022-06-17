@@ -19,6 +19,7 @@ function miniMaxSum($arr)
     echo $sum - min($arr);
     echo " ";
     echo $sum - max($arr);
+
 //    echo  min($arr)." ".max($arr);
 }
 $arr_temp = rtrim(fgets(STDIN));
