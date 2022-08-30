@@ -1,5 +1,6 @@
 <?php
 
+
 /*
  * Complete the 'alternatingCharacters' function below.
  *
@@ -7,11 +8,12 @@
  * The function accepts STRING s as parameter.
  */
 
-function alternatingCharacters($s) {
+function alternatingCharacters($s)
+{
     // Write your code here
     $count = 0;
-    for($i = 0; $i < strlen($s) - 1; $i++){
-        if($s[$i] == $s[$i+1]){
+    for ($i = 0; $i < strlen($s) - 1; $i++) {
+        if ($s[$i] == $s[$i + 1]) {
             $count++;
         }
     }
